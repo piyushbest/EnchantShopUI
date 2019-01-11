@@ -2,7 +2,7 @@ name: EnchantUI
 main: piyushbest\Main
 version: 0.0.1
 api: [3.0.0]
-author: VCraft
+author: piyushbest
 
 commands:
  eshop:
