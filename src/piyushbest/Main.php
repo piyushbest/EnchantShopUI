@@ -1,6 +1,6 @@
 <?php
 
-namespace VCraftMCPE;
+namespace piyushbest;
 
 use pocketmine\{Player, Server};
 use pocketmine\plugin\PluginBase;
