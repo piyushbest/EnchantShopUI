@@ -90,7 +90,7 @@ class Main extends PluginBase implements Listener{
         $plugin = $this->getServer()->getPluginManager();
 	$economyapi = $plugin->getPlugin(self::EconomyAPI);
         $formapi = $plugin->getPlugin(self::FORM_API);
-        $form = $formapi->createSimpleForm(function (Player $event, array $args)){
+        $form = $formapi->createSimpleForm(function (Player $event, array $args){
             $result = $args[0];
             $player = $event->getPlayer();
             if($result > 0){
